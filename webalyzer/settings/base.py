@@ -214,3 +214,6 @@ PIPELINE_JS = {
         'output_filename': 'js/collected.js',
     },
 }
+
+PIPELINE_CSS_COMPRESSOR = 'pipeline.compressors.NoopCompressor'
+PIPELINE_JS_COMPRESSOR = 'pipeline.compressors.NoopCompressor'
