@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block body %}
+<h1>Webalyzer</h1>
+<h2>Collector Instructions</h2>
+<ol>
+    <li>Add the following to your page(s):
+<code>
+    &lt;script src="{{ request.scheme }}://{{ request.get_host }}/static/collect.js"
+data-webalyzer="your-site.com"&gt;&lt;/script&gt;
+</code>
+    </li>
+</ol>
+<h2>Analyzer</h2>
+<p>
+Your analysis reports will be available at {{ request.scheme }}://{{request.get_host }}/analyzer/your-site.com
+</p>
+{% endblock %}
