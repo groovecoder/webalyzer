@@ -23,7 +23,7 @@
 
   function _post(data, cb) {
     var req = request();
-    req.open('POST', 'https://webalyzer.dev/collector/');
+    req.open('POST', 'http://webalyzer.herokuapp.com/collector/');
     req.onreadystatechange = function (response) {
       if (req.readyState === 4) {
         cb(req.status);
