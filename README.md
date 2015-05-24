@@ -85,3 +85,10 @@ Use locally
 3. Go to the collected analysis page: http://127.0.0.1:8000/analyzer/
 
 4. Enter your `data-webalyzer` attribute value (e.g., `example.com`) and click "Start Analysis"
+
+Run on Heroku
+-------------
+
+1. Use `heroku config:set` to set required environment variables (in `.env`)
+
+2. `git push heroku master`
