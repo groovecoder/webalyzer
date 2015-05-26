@@ -79,7 +79,7 @@ ROOT_URLCONF = 'webalyzer.urls'
 
 WSGI_APPLICATION = 'webalyzer.wsgi.application'
 
-STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
+STATICFILES_STORAGE = 'pipeline.storage.PipelineStorage'
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -226,7 +226,12 @@ PIPELINE_JS = {
         'output_filename': 'js/collected.js',
     },
 }
+"""
+PIPELINE_COMPILERS = (
+    'webalyzer.base.compilers.django.DJSCompiler',
+)
 
+"""
 PIPELINE_CSS_COMPRESSOR = 'pipeline.compressors.NoopCompressor'
 PIPELINE_JS_COMPRESSOR = 'pipeline.compressors.NoopCompressor'
 
