@@ -10,7 +10,6 @@ from webalyzer.collector.models import Page, Stylesheet
 def collect(request):
     if request.method in ('GET', 'HEAD'):
         response = http.HttpResponse('Works')
-        response['Access-Control-Allow-Origin'] = '*'
         return response
 
     url = request.POST['url']
