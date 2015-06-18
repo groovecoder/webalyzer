@@ -166,6 +166,9 @@ amqp==1.4.6
 # sha256: uiqjz1S7cQ9G8WiJ-hgzExdFipLiUxvo4-jTg-_UoU0
 django-celery==3.1.16
 
+# sha256: i8g1CCiCrZoBLNeQxGABHk2WvzUS2YoE09q75FOToIk
 gunicorn==19.3.0
+# sha256: _NluK-R8ju80xlDgB6bVRuGefuYQQbie27u-dhmqOYc
 django-cors-headers==1.1.0
+# sha256: WbUVu327zdMH-BesOIVOgIOev6M8XbeX9lRQeTyUXA0
 newrelic==2.52.0.40
