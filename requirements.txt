@@ -168,3 +168,4 @@ django-celery==3.1.16
 
 gunicorn==19.3.0
 django-cors-headers==1.1.0
+newrelic==2.52.0.40
