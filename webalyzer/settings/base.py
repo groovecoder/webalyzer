@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'pipeline',
     'sorl.thumbnail',
     'djcelery',
+    'djkombu',
     # 'kombu.transport.django',
     'corsheaders',
 

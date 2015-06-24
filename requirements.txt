@@ -165,6 +165,8 @@ amqp==1.4.6
 # sha256: B6nGUKHyDgQM9f_9C82SCoHQc0kVEw2JjAMlxfr7LsQ
 # sha256: uiqjz1S7cQ9G8WiJ-hgzExdFipLiUxvo4-jTg-_UoU0
 django-celery==3.1.16
+# sha256: iJxToNFQrBnItB1_MEDW4RaXdHh7cl9_XQgLZInRi_M
+django-kombu==0.9.4
 
 # sha256: i8g1CCiCrZoBLNeQxGABHk2WvzUS2YoE09q75FOToIk
 gunicorn==19.3.0
